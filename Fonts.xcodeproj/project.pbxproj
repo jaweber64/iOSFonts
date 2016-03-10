@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0FD5317A1C8E342B00C4657A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD531791C8E342B00C4657A /* AppDelegate.swift */; };
-		0FD5317C1C8E342B00C4657A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD5317B1C8E342B00C4657A /* ViewController.swift */; };
 		0FD5317F1C8E342B00C4657A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD5317D1C8E342B00C4657A /* Main.storyboard */; };
 		0FD531811C8E342B00C4657A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD531801C8E342B00C4657A /* Assets.xcassets */; };
 		0FD531841C8E342B00C4657A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD531821C8E342B00C4657A /* LaunchScreen.storyboard */; };
 		0FD5318F1C8E342B00C4657A /* FontsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD5318E1C8E342B00C4657A /* FontsTests.swift */; };
 		0FD5319A1C8E342B00C4657A /* FontsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD531991C8E342B00C4657A /* FontsUITests.swift */; };
+		0FD531A81C8E373500C4657A /* FavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD531A71C8E373500C4657A /* FavoritesList.swift */; };
+		0FD531AC1C8F174600C4657A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD531AB1C8F174600C4657A /* RootViewController.swift */; };
+		0FD531AE1C8F223D00C4657A /* FontListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD531AD1C8F223D00C4657A /* FontListViewController.swift */; };
+		0FD531B01C90C9FC00C4657A /* FontSizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD531AF1C90C9FC00C4657A /* FontSizesViewController.swift */; };
+		0FD531B21C90D1D300C4657A /* FontInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD531B11C90D1D300C4657A /* FontInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		0FD531761C8E342B00C4657A /* Fonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD531791C8E342B00C4657A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0FD5317B1C8E342B00C4657A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0FD5317E1C8E342B00C4657A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FD531801C8E342B00C4657A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FD531831C8E342B00C4657A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		0FD531951C8E342B00C4657A /* FontsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD531991C8E342B00C4657A /* FontsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsUITests.swift; sourceTree = "<group>"; };
 		0FD5319B1C8E342B00C4657A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FD531A71C8E373500C4657A /* FavoritesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesList.swift; sourceTree = "<group>"; };
+		0FD531AB1C8F174600C4657A /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		0FD531AD1C8F223D00C4657A /* FontListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontListViewController.swift; sourceTree = "<group>"; };
+		0FD531AF1C90C9FC00C4657A /* FontSizesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontSizesViewController.swift; sourceTree = "<group>"; };
+		0FD531B11C90D1D300C4657A /* FontInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				0FD531791C8E342B00C4657A /* AppDelegate.swift */,
-				0FD5317B1C8E342B00C4657A /* ViewController.swift */,
 				0FD5317D1C8E342B00C4657A /* Main.storyboard */,
 				0FD531801C8E342B00C4657A /* Assets.xcassets */,
 				0FD531821C8E342B00C4657A /* LaunchScreen.storyboard */,
 				0FD531851C8E342B00C4657A /* Info.plist */,
+				0FD531A71C8E373500C4657A /* FavoritesList.swift */,
+				0FD531AB1C8F174600C4657A /* RootViewController.swift */,
+				0FD531AD1C8F223D00C4657A /* FontListViewController.swift */,
+				0FD531AF1C90C9FC00C4657A /* FontSizesViewController.swift */,
+				0FD531B11C90D1D300C4657A /* FontInfoViewController.swift */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FD5317C1C8E342B00C4657A /* ViewController.swift in Sources */,
+				0FD531B01C90C9FC00C4657A /* FontSizesViewController.swift in Sources */,
 				0FD5317A1C8E342B00C4657A /* AppDelegate.swift in Sources */,
+				0FD531AE1C8F223D00C4657A /* FontListViewController.swift in Sources */,
+				0FD531B21C90D1D300C4657A /* FontInfoViewController.swift in Sources */,
+				0FD531A81C8E373500C4657A /* FavoritesList.swift in Sources */,
+				0FD531AC1C8F174600C4657A /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
